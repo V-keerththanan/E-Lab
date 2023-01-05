@@ -290,7 +290,7 @@ section{
    text-align: center;
    padding:2rem;
    background: var(--white);
-   border-radius: .5rem;
+   border-radius: 10%;
 }
 
 .category .slide:hover{
@@ -322,7 +322,7 @@ section{
 .home-products .slide{
    position: relative;
    padding:2rem;
-   border-radius: .5rem;
+   border-radius: 7%;
    border:var(--border);
    background-color: var(--white);
    box-shadow: var(--box-shadow);
@@ -921,7 +921,7 @@ section{
    border:var(--border);
    background-color: var(--white);
    box-shadow: var(--box-shadow);
-   border-radius: .5rem;
+   border-radius: 7%;
 }
 
 .orders .box-container .box p{
@@ -929,10 +929,15 @@ section{
    line-height: 1.8;
    font-size: 2rem;
    color:var(--light-color);
+ 
 }
 
 .orders .box-container .box p span{
    color:var(--main-color);
+}
+.orders .box-container .empty{
+   border: none;
+  
 }
 
 .footer{
