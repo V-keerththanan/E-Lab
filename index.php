@@ -33,7 +33,7 @@ include 'components/wishlist_cart.php';
 
 </head>
 <body>
-   
+<?php include 'components/head.php'; ?>  
 <?php include 'components/user_header.php'; ?>
 
 <div class="home-bg">
